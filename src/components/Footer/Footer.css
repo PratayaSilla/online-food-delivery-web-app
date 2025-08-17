@@ -1,0 +1,83 @@
+.footer {
+  background: #222;
+  color: #ddd;
+  padding: 3rem 8% 1.5rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Logo section */
+.footer-logo {
+  color: #ff5722;
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-icon {
+  font-size: 1.4rem;
+}
+
+.footer-section p {
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  color: #bbb;
+}
+
+/* Links */
+.footer-section h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.6rem;
+}
+
+.footer-section ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ff5722;
+}
+
+/* Socials */
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-socials a {
+  color: #bbb;
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+}
+
+.footer-socials a:hover {
+  color: #ff5722;
+}
+
+/* Bottom strip */
+.footer-bottom {
+  border-top: 1px solid #444;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #888;
+}

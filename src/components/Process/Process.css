@@ -1,0 +1,52 @@
+.process {
+  padding: 4rem 8%;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.process-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #222;
+}
+
+.process-steps {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.process-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 280px;
+  flex: 1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.process-icon {
+  font-size: 2.5rem;
+  color: #ff5722;
+  margin-bottom: 1rem;
+}
+
+.process-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.process-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
