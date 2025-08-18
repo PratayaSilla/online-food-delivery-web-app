@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Logo + About */}
+
         <div className="footer-section">
           <h2 className="footer-logo">
             <FaUtensils className="footer-icon" /> Foodie
@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
+
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul>
@@ -28,14 +28,14 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact */}
+
         <div className="footer-section">
           <h3>Contact</h3>
           <p>Email: support@foodie.com</p>
           <p>Phone: +91 98765 43210</p>
         </div>
 
-        {/* Socials */}
+
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="footer-socials">

@@ -14,12 +14,12 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar-container">
-        {/* Logo */}
+
         <a href="/" className="navbar-logo">
           <FaUtensils className="logo-icon" /> Foodie
         </a>
 
-        {/* Desktop Menu */}
+
         <nav className={`navbar-links ${isOpen ? "active" : ""}`}>
           <a href="#features" onClick={() => setIsOpen(false)}>Features</a>
           <a href="#restaurants" onClick={() => setIsOpen(false)}>Restaurants</a>
@@ -28,7 +28,7 @@ const Navbar = () => {
           <button className="navbar-btn" onClick={() => navigate('/signin')}>Sign In</button>
         </nav>
 
-        {/* Mobile Toggle */}
+
         <div className="navbar-toggle" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
         </div>

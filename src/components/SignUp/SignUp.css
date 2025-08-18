@@ -1,4 +1,3 @@
-/* Container */
 .signup {
   display: flex;
   justify-content: center;
@@ -8,7 +7,7 @@
   padding: 2rem;
 }
 
-/* Card */
+
 .signup-card {
   background: #fff;
   padding: 2.5rem;
@@ -19,7 +18,7 @@
   text-align: center;
 }
 
-/* Titles */
+
 .signup-title {
   font-size: 1.8rem;
   font-weight: 700;
@@ -33,7 +32,7 @@
   margin-bottom: 2rem;
 }
 
-/* Form */
+
 .signup-form {
   display: flex;
   flex-direction: column;
@@ -66,7 +65,7 @@
   border-color: #ff5722;
 }
 
-/* Button */
+
 .signup-btn {
   background: #ff5722;
   border: none;
@@ -84,7 +83,7 @@
   transform: translateY(-2px);
 }
 
-/* Footer */
+
 .signup-footer {
   margin-top: 1.5rem;
   font-size: 0.9rem;

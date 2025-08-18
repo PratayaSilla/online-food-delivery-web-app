@@ -24,7 +24,7 @@ const SignUp = () => {
     }
 
     console.log("Form submitted:", formData);
-    // TODO: Add sign-up logic here
+
   };
     const navigate = useNavigate();
 
