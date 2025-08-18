@@ -1,0 +1,58 @@
+export const restaurants = [
+  {
+    id: "spice-hub",
+    name: "Spice Hub",
+    image: "https://source.unsplash.com/400x300/?indian,food",
+    rating: 4.5,
+    avgPrice: 500,
+    cuisine: "Indian, Chinese",
+    deliveryTime: 30,
+    menuItems: [
+      { id: 1, name: "Paneer Butter Masala", price: 250, image: "https://source.unsplash.com/200x150/?paneer" },
+      { id: 2, name: "Chicken Biryani", price: 320, image: "https://source.unsplash.com/200x150/?biryani" },
+      { id: 3, name: "Garlic Naan", price: 60, image: "https://source.unsplash.com/200x150/?naan" },
+    ],
+  },
+  {
+    id: "pizza-palace",
+    name: "Pizza Palace",
+    image: "https://source.unsplash.com/400x300/?pizza,restaurant",
+    rating: 4.2,
+    avgPrice: 700,
+    cuisine: "Italian, Fast Food",
+    deliveryTime: 25,
+    menuItems: [
+      { id: 1, name: "Margherita Pizza", price: 299, image: "https://source.unsplash.com/200x150/?margherita,pizza" },
+      { id: 2, name: "Pepperoni Pizza", price: 399, image: "https://source.unsplash.com/200x150/?pepperoni,pizza" },
+      { id: 3, name: "Garlic Bread", price: 149, image: "https://source.unsplash.com/200x150/?garlic,bread" },
+    ],
+  },
+  {
+    id: "sushi-express",
+    name: "Sushi Express",
+    image: "https://source.unsplash.com/400x300/?sushi,restaurant",
+    rating: 4.8,
+    avgPrice: 1200,
+    cuisine: "Japanese",
+    deliveryTime: 40,
+    menuItems: [
+      { id: 1, name: "Salmon Sushi Roll", price: 450, image: "https://source.unsplash.com/200x150/?salmon,sushi" },
+      { id: 2, name: "Tuna Nigiri", price: 380, image: "https://source.unsplash.com/200x150/?tuna,sushi" },
+      { id: 3, name: "Miso Soup", price: 150, image: "https://source.unsplash.com/200x150/?miso,soup" },
+    ],
+  },
+  {
+    id: "burger-barn",
+    name: "Burger Barn",
+    image: "https://source.unsplash.com/400x300/?burger,restaurant",
+    rating: 4.1,
+    avgPrice: 450,
+    cuisine: "American, Fast Food",
+    deliveryTime: 20,
+    menuItems: [
+      { id: 1, name: "Cheeseburger", price: 220, image: "https://source.unsplash.com/200x150/?cheeseburger" },
+      { id: 2, name: "French Fries", price: 120, image: "https://source.unsplash.com/200x150/?fries" },
+      { id: 3, name: "Veggie Burger", price: 200, image: "https://source.unsplash.com/200x150/?veggie,burger" },
+    ],
+  },
+];

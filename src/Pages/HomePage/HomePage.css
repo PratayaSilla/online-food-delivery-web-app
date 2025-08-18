@@ -1,0 +1,30 @@
+/* Scope the page so styles don't leak */
+.home-page {
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+/* Main grid */
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 24px 32px 48px;
+  max-width: 1280px;
+  margin: 0 auto;             /* centers the grid */
+  align-content: start;       /* prevents weird vertical stretching */
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+  .restaurant-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+}
+
+/* Extra safety: avoid unexpected global resets breaking card spacing */
+.restaurant-grid > * {
+  margin: 0;                  /* neutralize stray margins */
+}

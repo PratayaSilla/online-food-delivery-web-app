@@ -48,7 +48,7 @@ const SignIn = () => {
             />
           </div>
 
-          <button type="submit" className="signin-btn">Sign In</button>
+          <button type="submit" className="signin-btn" onClick={() => navigate('/home')}>Sign In</button>
         </form>
 
         <div className="signin-footer">
